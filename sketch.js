@@ -72,15 +72,15 @@ function preload (){
         minkImgs[i] = loadImage(`assets/Mink${i}.png`)
     }
 
-  CarioImg = loadImage(`assets/Cario.png`)
-  pressImg = loadImage(`assets/pressx.png`)
-  jortsImg = loadImage(`assets/Jorts.png`)
-  birdImg = loadImage(`assets/bbbirdie.png`)
-  ballImg =loadImage(`assets/ballonman.png`)
-  apeImg = loadImage(`assets/scary ape.png`)
-  poopImg = loadImage(`assets/poop.png`)
-  dinoImg = loadImage(`assets/dino.png`)
-  watImg = loadImage(`assets/effortlesswaste.png`)
+  CarioImg = loadImage(`Cario.png`)
+  pressImg = loadImage(`pressx.png`)
+  jortsImg = loadImage(`Jorts.png`)
+  birdImg = loadImage(`bbbirdie.png`)
+  ballImg =loadImage(`ballonman.png`)
+  apeImg = loadImage(`scary ape.png`)
+  poopImg = loadImage(`poop.png`)
+  dinoImg = loadImage(`dino.png`)
+  watImg = loadImage(`effortlesswaste.png`)
   
 }
 
