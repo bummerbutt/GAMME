@@ -65,22 +65,22 @@ let minkImg, specterImg, CarioImg, coinSound, pressImg
 
 function preload (){
     for (let i=0; i<=3; i++){
-        specterImgs[i] = loadImage(`/Specter${i}.png`)
+        specterImgs[i] = loadImage(`assets/Specter${i}.png`)
     }
     
     for (let i=0; i<=7; i++){
-        minkImgs[i] = loadImage(`/Mink${i}.png`)
+        minkImgs[i] = loadImage(`assets/Mink${i}.png`)
     }
 
-  CarioImg = loadImage(`/Cario.png`)
-  pressImg = loadImage(`/pressx.png`)
-  jortsImg = loadImage(`/Jorts.png`)
-  birdImg = loadImage(`/bbbirdie.png`)
-  ballImg =loadImage(`/ballonman.png`)
-  apeImg = loadImage(`/scary ape.png`)
-  poopImg = loadImage(`/poop.png`)
-  dinoImg = loadImage(`/dino.png`)
-  watImg = loadImage(`/effortlesswaste.png`)
+  CarioImg = loadImage(`assets/Cario.png`)
+  pressImg = loadImage(`assets/pressx.png`)
+  jortsImg = loadImage(`assets/Jorts.png`)
+  birdImg = loadImage(`assets/bbbirdie.png`)
+  ballImg =loadImage(`assets/ballonman.png`)
+  apeImg = loadImage(`assets/scary ape.png`)
+  poopImg = loadImage(`assets/poop.png`)
+  dinoImg = loadImage(`assets/dino.png`)
+  watImg = loadImage(`assets/effortlesswaste.png`)
   
 }
 
@@ -93,7 +93,7 @@ function setup(){
     getAudioContext().suspend();
 
 
- ele = createAudio('/echo.mp3');
+ ele = createAudio('assets/echo.mp3');
 
  
  ele.autoplay(true);
