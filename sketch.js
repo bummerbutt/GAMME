@@ -65,11 +65,11 @@ let minkImg, specterImg, CarioImg, coinSound, pressImg
 
 function preload (){
     for (let i=0; i<=3; i++){
-        specterImgs[i] = loadImage(`assets/Specter${i}.png`)
+        specterImgs[i] = loadImage(`Specter${i}.png`)
     }
     
     for (let i=0; i<=7; i++){
-        minkImgs[i] = loadImage(`assets/Mink${i}.png`)
+        minkImgs[i] = loadImage(`Mink${i}.png`)
     }
 
   CarioImg = loadImage(`Cario.png`)
@@ -93,7 +93,7 @@ function setup(){
     getAudioContext().suspend();
 
 
- ele = createAudio('assets/echo.mp3');
+ ele = createAudio('echo.mp3');
 
  
  ele.autoplay(true);
